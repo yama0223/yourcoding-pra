@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>YourCoding</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&display=swap" rel="stylesheet">
+        <link  href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css">
+    </head>
+
+    <body>
+        <!-- header -->
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header-logo">
+                        <img class="header-logo__img" src="/images/Pink and Purple Events & party Entertainment Logo@2x.png" alt="ユアコーディング">
+                        <h1 class="header-logo__ttl">ユアコーディング</h1>
+                    </div>
+                    <ul class="header-nav">
+                        <li class="header-nav__item"><a href="#features">特徴</a></li>
+                        <li class="header-nav__item"><a href="#price">価格</a></li>
+                        <li class="header-nav__item"><a href="#cta">お問い合わせ</a></li>
+                    </ul>
+                    <div class="header-btn">
+                        <a class="cta-btn" href="#cta">お問い合わせ</a>
+                    </div>
+                    <div class="nav-drawer">
+                        <input class="nav-drawer__checkbox" id="drawer-checkbox" type="checkbox" >
+                        <!-- ドロワーアイコン -->
+                        <label class="nav-drawer__icon" for="drawer-checkbox">
+                          <span class="nav-drawer__icon--parts"></span>
+                        </label>
+                        <!-- 背景を暗く -->
+                        <label class="nav-drawer__overlay" for="drawer-checkbox"></label>
+                        <!-- ドロワーメニュー -->
+                        <nav class="nav-drawer__menu">
+                          <ul class="nav-drawer__list">
+                            <li class="nav-drawer__item">
+                              <a class="nav-drawer__item--link" href="#features">特徴</a>
+                            </li>
+                            <li class="nav-drawer__item">
+                              <a class="nav-drawer__item--link" href="#price">価格</a>
+                            </li>
+                            <li class="nav-drawer__item">
+                              <a class="nav-drawer__item--link" href="#cta">お問い合わせ</a>
+                            </li>
+                          </ul>
+                        </nav><!-- /ドロワーメニュー -->
+                      </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- main -->
+        <main>
+            <!-- mv -->
+            <section class="mv" data-aos="fade">
+                <div class="container">
+                    <div class="mv-inner">
+                        <div class="mv-cont">
+                            <h2 class="mv-cont__ttl">
+                                コーディングの手間を<br>
+                                最小に、デザインに注力<br>
+                                する助けに
+                            </h2>
+                            <div class="mv-img mv-img--sp">
+                                <img src="/images/manager@2x.png" alt="yourcoding">
+                            </div>
+                            <p class="mv-cont__text">ユアコーディングはコーディングに<br>
+                                特化したフリーランス<br>
+                                デザインに注力されたい方の<br>
+                                助けになります</p>
+                            <a class="cta-btn" href="#cta">お問い合わせ</a>
+                        </div>
+                        <div class="mv-img mv-img--pc">
+                            <img src="/images/manager@2x.png" alt="yourcoding">
+                        </div>
+                    </div>
+                </div><!-- /.container -->
+            </section>
+            
+            <!-- features -->
+            <section class="features" id="features">
+                <div class="container">
+                    <div class="section-ttl" data-aos="fade-up">
+                        <h2 class="section-ttl__main">ユアコーディング３つの特徴</h2>
+                        <p class="section-ttl__sub">FEATURES</p>
+                    </div><!-- /.section-ttl -->
+                    <ul class="features-list">
+                        <li class="features-item" data-aos="fade-up">
+                            <h3 class="features-item__ttl">高速コーディング</h3>
+                            <div class="features-cont">
+                                <div class="features-img">
+                                    <img src="/images/cto@2x.png" alt="high-speed-coding">
+                                </div>
+                                <div class="features-desc">
+                                    <h4 class="features-desc__ttl">コーディングに特化したフリーランスのため、スピード感を持った開発が可能。</h4>
+                                    <p class="features-desc__text">開発は常にスピードとの勝負です。ユアコーディングはコーディングに特化しているため、素早く納品することで、クライアントがデザインに注力する助けとなります。</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="features-item" data-aos="fade-up">
+                            <h3 class="features-item__ttl">高品質</h3>
+                            <div class="features-cont features-cont--rev">
+                                <div class="features-img">
+                                    <img src="/images/building_website@2x.png" alt="high-quality">
+                                </div>
+                                <div class="features-desc">
+                                    <h4 class="features-desc__ttl">正しいマークアップで、内部SEOに強いコーディングをデフォルトで行います。</h4>
+                                    <p class="features-desc__text">ユアコーディングでは、「予測しやすい」「再利用しやすい」「保守しやすい」「拡張しやすい」と言った設計をもとにきちんとコーディングを行うため、納品後も安心です。</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="features-item" data-aos="fade-up">
+                            <h3 class="features-item__ttl">迅速なレスポンス</h3>
+                            <div class="features-cont">
+                                <div class="features-img">
+                                    <img src="/images/new_message@2x.png" alt="quick-response">
+                                </div>
+                                <div class="features-desc">
+                                    <h4 class="features-desc__ttl">原則いただいたメッセージは、業務時間内であれば6時間以内にお返しいたします。</h4>
+                                    <p class="features-desc__text">連絡を返さないフリーランスが多い中、ユアコーディングでは定期的な進捗報告など、社会人としての基本を踏まえて仕事を行なっております。</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul><!-- /.features-list -->
+                </div><!-- /.container -->
+            </section>
+
+            <!-- price -->
+            <section class="price" id="price">
+                <div class="container">
+                    <div class="section-ttl" data-aos="fade-up">
+                        <h2 class="section-ttl__main">価格</h2>
+                        <p class="section-ttl__sub">PRICE</p>
+                    </div>
+                    <div class="price-inner" data-aos="fade-up">
+                        <table class="price-table">
+                            <tr class="price-cont">
+                                <th>HTMLコーディング<br class="price-table--sm">トップページ</th>
+                                <td>30.000円〜</td>
+                            </tr>
+                            <tr class="price-cont">
+                                <th>HTMLコーディング<br class="price-table--sm">下層1ページ</th>
+                                <td>10.000円〜</td>
+                            </tr>
+                            <tr class="price-cont">
+                                <th>HTML+WordPress<br class="price-table--sm">トップページ</th>
+                                <td>55.000円〜</td>
+                            </tr>
+                            <tr class="price-cont">
+                                <th>HTML+WordPress<br class="price-table--sm">下層1ページ</th>
+                                <td>15.000円〜</td>
+                            </tr>
+                        </table>
+                        <div class="price-note">
+                            <p>＊詳細な価格はページや仕様によって異なります</p>
+                        </div>
+                    </div>
+                </div><!-- /.container -->
+            </section>
+
+            <!-- faq -->
+            <section class="faq">
+                <div class="container">
+                    <div class="section-ttl" data-aos="fade-up">
+                        <h2 class="section-ttl__main">よくある質問</h2>
+                        <p class="section-ttl__sub">FAQ</p>
+                    </div>
+                    <div class="faq-inner" data-aos="fade-up">
+                        <ul class="faq-list"> 
+                            <li class="faq-item">
+                                <div class="faq-question">デザインから一貫してお願いすることは可能でしょうか</div>
+                                <div class="faq-answer faq-answer--stay">
+                                    <p>ユアコーディングはコーディングに特化したサービスですので、デザインからお受けすることは基本的にありません。 ただデザインを行う際は提携しているデザイナーと連携して対応させていただきますので、別途ご連絡ください。</p>
+                                </div>
+                            </li>
+                                <div class="faq-question">WordPressのカスタマイズをお願いすることも可能でしょうか？</div>
+                                <div class="faq-answer">
+                                    <p>可能です。ただECサイトなどの場合は構築難易度や工数の関係で綿密にヒアリングさせていただきたく思います。</p>
+                                </div>
+                            </li>
+                            <li class="faq-item">
+                                <div class="faq-question">コーディングのスピード感が知りたい</div>
+                                <div class="faq-answer">
+                                    <p>HTMLレスポンシブ込み5ページで1週間、10ページで2週間、WordPressサイト5ページで2週間、10ページで3週間が目安になります。</p>
+                                </div>
+                            </li>
+                        </ul> 
+                        
+                    </div>
+                </div><!-- /.container -->
+            </section>
+
+            <!-- blog -->
+            <section class="blog">
+                <div class="container">
+                    <div class="section-ttl" data-aos="fade-up">
+                        <h2 class="section-ttl__main">ブログ</h2>
+                        <p class="section-ttl__sub">BLOG</p>
+                    </div>
+                    <div class="blog-inner" data-aos="fade-up">
+                        <ul class="blog-list">
+                            <li class="blog-item">
+                                <div class="blog-item__img">
+                                    <img src="/images/austin-distel-wawEfYdpkag-unsplash@2x.png" alt="">
+                                </div>
+                                <div class="blog-cont">
+                                    <p class="blog-cont__ttl">サイトをリニューアルオープンしました。</p>
+                                    <p class="blog-cont__date">2020.01.23</p>
+                                </div>
+                            </li>
+                            <li class="blog-item">
+                                <div class="blog-item__img">
+                                    <img src="/images/dylan-gillis-KdeqA3aTnBY-unsplash@2x.png" alt="">
+                                </div>
+                                <div class="blog-cont">
+                                    <p class="blog-cont__ttl">WebサイトでSEO内部施策に適したコーディングでどれぐらいサイトが早くなるのか検証してみました</p>
+                                    <p class="blog-cont__date">2020.01.24</p>
+                                </div>
+                            </li>
+                            <li class="blog-item">
+                                <div class="blog-item__img">
+                                    <img src="/images/brooke-cagle-g1Kr4Ozfoac-unsplash@2x.png" alt="">
+                                </div>
+                                <div class="blog-cont">
+                                    <p class="blog-cont__ttl">ユアコーディングではデザイナーの方を広く募集しています。</p>
+                                    <p class="blog-cont__date">2020.01.25</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!-- /.container -->
+            </section>
+
+            <!-- works -->
+            <section class="works">
+                <div class="container">
+                    <div class="section-ttl" data-aos="fade-up">
+                        <h2 class="section-ttl__main">制作実績</h2>
+                        <p class="section-ttl__sub">WORKS</p>
+                    </div>
+                    <div class="works-inner swiper-container" data-aos="fade-up">
+                        <ul class="works-list swiper-wrapper">
+                            <li class="works-item swiper-slide">
+                                <div class="works-item__img">
+                                    <img src="/images/digital-marketing-1433427_1280@2x.png" alt="">
+                                </div>
+                                <div class="works-cont">
+                                    <p class="works-cont__ttl">株式会社サンプル様採用サイトのコーディングを行いました！</p>
+                                    <ul class="works-cont__about">
+                                        <li>採用技術：jQuery,Bootstrap4</li>
+                                        <li>実装期間：2週間</li>
+                                        <li>担当コーダー：石井</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="works-item swiper-slide">
+                                <div class="works-item__img">
+                                    <img src="/images/arnel-hasanovic-MNd-Rka1o0Q-unsplash@2x.png" alt="">
+                                </div>
+                                <div class="works-cont">
+                                    <p class="works-cont__ttl">コーディングカンファレンスのイベントLPの制作を行いました！</p>
+                                    <ul class="works-cont__about">
+                                        <li>採用技術：jQuery,WordPress</li>
+                                        <li>実装期間：4週間</li>
+                                        <li>担当コーダー：石井</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="works-item swiper-slide">
+                                <div class="works-item__img">
+                                    <img src="/images/digital-marketing-1433427_1280@2x.png" alt="">
+                                </div>
+                                <div class="works-cont">
+                                    <p class="works-cont__ttl">株式会社サンプル様採用サイトのコーディングを行いました！</p>
+                                    <ul class="works-cont__about">
+                                        <li>採用技術：jQuery,Bootstrap4</li>
+                                        <li>実装期間：2週間</li>
+                                        <li>担当コーダー：石井</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="works-item swiper-slide">
+                                <div class="works-item__img">
+                                    <img src="/images/hal-gatewood-tZc3vjPCk-Q-unsplash@2x.png" alt="">
+                                </div>
+                                <div class="works-cont">
+                                    <p class="works-cont__ttl">株式会社サンプル様通販サイトのコーディングを行いました！</p>
+                                    <ul class="works-cont__about">
+                                        <li>採用技術：jQuery,Bootstrap4</li>
+                                        <li>実装期間：6週間</li>
+                                        <li>担当コーダー：石井</li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!-- /.container -->
+            </section>
+
+            <!-- cta -->
+            <section class="cta" id="cta">
+                <div class="container">
+                    <div class="section-ttl">
+                        <h2 class="section-ttl__main">お問い合わせ</h2>
+                        <p class="section-ttl__sub">CONTACT</p>
+                        <p class="section-ttl__text">コーディングの人出が足りないとき、<br>
+                            あなたの力になります</p>
+                    </div>
+                    <div class="cta__inner">
+                        <form class="cta-form" action="confirm.php" id="form">
+                            <div class="cta-neme">
+                                <div class="cta-txt">
+                                    <label for="cta-name">お名前</label>
+                                    <p class="must">必須</p>
+                                </div>
+                                <input class="cta-txt__box" id="cta-name" type="text" name="yourname" >
+                            </div>
+                            <div class="cta-address">
+                                <div class="cta-txt">
+                                    <label for="cta-email">メールアドレス</label>
+                                    <p class="must">必須</p>
+                                </div>
+                                <input class="cta-txt__box" id="cta-email" type="email" name="email">
+                            </div>
+                            <div class="cta-cont">
+                                <div class="cta-txt">
+                                    <label for="cta-cont">お問い合わせ内容</label>
+                                    <p class="must">必須</p>
+                                </div>
+                                <textarea class="cta-txt__box cta-txt__box--lg" id="cta-cont" name="cta" cols="30" rows="10"></textarea>
+                            </div>
+                            <div class="checkbox">
+                                <input id="privacy-check" type="checkbox">
+                                <label class="privacy-check" for="privacy-check">プライバシーポリシーに同意する</label>
+                            </div>
+                            <input class="submit-btn" type="submit" id="js-submit" value="送信する" disabled></input>
+                        </form>
+                    </div>
+                </div><!-- /.container -->
+            </section>
+        </main>
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <h2 class="footer-ttl">ユアコーディング</h2>
+                    <ul class="footer-policy">
+                        <li class="footer-policy__link"><a href="#">プライバシーポリシー</a></li>
+                        <li class="footer-policy__link"><a href="#">個人商取引に基づく表記</a></li>
+                    </ul>
+                    <p class="copy">&copyユアコーディング.All Rights Reserved.</p>
+                </div>
+            </div><!-- /.container -->
+        </footer>
+
+        <!-- js読み込み -->
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./js/script.js"></script>
+        <!-- aos.js -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                offset: 120,
+                delay: 0,
+                duration: 900,
+                easing: 'ease',
+                once: false,
+                mirror: false,
+                anchorPlacement: 'bottom-center',
+            });
+        </script>
+        <!-- swiper.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.js"></script>
+    </body>
+</html>
