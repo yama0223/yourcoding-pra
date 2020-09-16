@@ -67,6 +67,20 @@ a {
   margin-top: -40px;
 }
 
+@media (max-width: 1024px) {
+  #features, #price, #cta {
+    padding-top: 70px;
+    margin-top: -70px;
+  }
+}
+
+@media (max-width: 767px) {
+  #features, #price, #cta {
+    padding-top: 50px;
+    margin-top: -50px;
+  }
+}
+
 .header {
   -webkit-box-shadow: 0 3px 6px #00000029;
           box-shadow: 0 3px 6px #00000029;
